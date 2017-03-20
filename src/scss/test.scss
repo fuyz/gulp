@@ -1,0 +1,23 @@
+$font12: 12px;
+$font25: 25px;
+$width100: 100px;
+$height100: 100px;
+
+#d1{
+  border: 2px dashed blue;
+  width: $width100 * 8;
+  height: $height100* 5;
+  font-size: $font25;
+
+  &:hover{
+    font-size: $font25 / 2;
+  }
+
+  h1{
+    border: 1px solid #555;
+    color: red;
+    padding-left: 300px;
+    background: magenta;
+  }
+
+}
